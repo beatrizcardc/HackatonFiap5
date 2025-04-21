@@ -45,5 +45,59 @@ Exemplo de estrutura exportada:
 
 cortantesMVP-2/ ├── train/ ├── valid/ ├── test/ ├── data.yaml
 
-Link para Video Explicativo: https://youtu.be/fLekEP_65k0 
+## 📨 Alerta por E-mail
+
+- Sempre que um objeto cortante é detectado, um e-mail com a imagem é enviado automaticamente.
+- Sistema previne flood: até 5 alertas por minuto.
+
+```python
+def send_alert(frame, class_name, confidence):
+    # Salva o frame
+    # Envia e-mail com imagem + descrição
+```
+
+## 🎥 Processo de Inferência
+
+- O vídeo é analisado frame a frame.
+- Cada detecção com confiança > 60% aciona o alerta.
+- O vídeo final com bounding boxes é salvo.
+
+## 📁 Estrutura dos Arquivos
+
+```
+Hackaton_FIAP5/
+├── data.yaml
+├── video.mp4
+├── runs/
+│   └── detect/
+│       └── train4/
+│           └── weights/best.pt
+├── inferencia_com_alerta.py
+└── alertas/
+    ├── alerta_YYYYMMDD_HHMM.jpg
+    └── video_processado.mp4
+```
+
+## 📊 Resultados
+
+- `knife`: mAP@50 = 0.639
+- `cutter`: mAP@50 = 0.916
+- `sickle`: mAP@50 = 0.994
+- `precision`: 0.877
+- `recall`: 0.839
+
+## ✅ Conclusão
+
+O modelo YOLOv8 mostrou-se eficaz para detecção de objetos cortantes em ambiente de vídeo. O envio automatizado de alertas amplia a utilidade do sistema para aplicações em segurança e vigilância.
+
+---
+
+Criado com 💡 no Hackaton FIAP - Fase 5 por Beatriz Cardoso Cunha em 21 de abril de 2025
+
+🔗LINKS DO PROJETO
+- Link para Video Explicativo: https://youtu.be/fLekEP_65k0 
+- Link para Video processado de validação do MVP: https://youtu.be/yKj2Do8kJNk
+- Link para o Projeto Google Drive: https://drive.google.com/drive/folders/1J91UZkjRoVw3EFS0sz1kHlMbcLtbM0fc?usp=sharing 
+- OBS: o vídeo 2 está anexado no Github
+
 
