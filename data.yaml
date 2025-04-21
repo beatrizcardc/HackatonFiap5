@@ -1,0 +1,5 @@
+train: /content/drive/MyDrive/Hackaton FIAP5/cortantesMVP/train/images
+val: /content/drive/MyDrive/Hackaton FIAP5/cortantesMVP/test/images
+
+nc: 4
+names: ['knife', 'scissors', 'cutter', 'garden_tool']
