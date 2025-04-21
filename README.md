@@ -97,7 +97,8 @@ Criado com 💡 no Hackaton FIAP - Fase 5 por Beatriz Cardoso Cunha em 21 de abr
 🔗LINKS DO PROJETO
 - Link para Video Explicativo: https://youtu.be/fLekEP_65k0 
 - Link para Video processado de validação do MVP: https://youtu.be/yKj2Do8kJNk
-- Link para o Projeto Google Drive: https://drive.google.com/drive/folders/1J91UZkjRoVw3EFS0sz1kHlMbcLtbM0fc?usp=sharing 
+- Link para o Projeto Google Drive: https://drive.google.com/drive/folders/1J91UZkjRoVw3EFS0sz1kHlMbcLtbM0fc?usp=sharing
+- Link do Projeto no RoboFlow: https://app.roboflow.com/join/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3Jrc3BhY2VJZCI6InAwd0JlZ05UbFlVdjB4VUtkajV3ajVXZkxXdjIiLCJyb2xlIjoib3duZXIiLCJpbnZpdGVyIjoiZmlhcGJlYUBnbWFpbC5jb20iLCJpYXQiOjE3NDUyNjEzODh9.e_nJEFZ7bQKkRzifFSkOEsfTPGD3VmFYZ2O7Z8pP2Oc 
 - OBS: o vídeo 2 está anexado no Github
 
 
