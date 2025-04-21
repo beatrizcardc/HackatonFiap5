@@ -48,7 +48,7 @@ cortantesMVP-2/ ├── train/ ├── valid/ ├── test/ ├── data
 ## 📨 Alerta por E-mail
 
 - Sempre que um objeto cortante é detectado, um e-mail com a imagem é enviado automaticamente.
-- Sistema previne flood: até 5 alertas por minuto.
+- Sistema previne flood: até 10 alertas por minuto.
 
 ```python
 def send_alert(frame, class_name, confidence):
